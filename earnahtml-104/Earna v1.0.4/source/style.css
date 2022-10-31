@@ -602,12 +602,12 @@ a:hover, a:active {
   content: "";
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(to right, #ee2852,  #d100df, #ee2852);
+  background-image: linear-gradient(to right, green, #d100df, green);
   background-size: 220% 150%;
   text-transform: uppercase;
   display: inline-block;
   color: #ffffff !important;
-  background-color: #ee2852;
+  background-color: green;
   z-index: -1;
   transition: all 0.35s ease-in-out;
 }
@@ -752,7 +752,7 @@ a:hover, a:active {
 
 .torch-red .btn.btn-theme.effect {
   color: #ffffff;
-  border: 2px solid #ee2852;
+  border: 2px solid green;
   overflow: hidden;
   position: relative;
 
@@ -765,7 +765,7 @@ a:hover, a:active {
   content: "";
   height: 100%;
   width: 100%;
-  background: #ee2852;
+  background: green;
   z-index: -1;
   transition: all 0.35s ease-in-out;
 }
@@ -802,7 +802,7 @@ a:hover, a:active {
 
 .torch-red .shadow .btn.btn-theme.effect:hover {
   border: 2px solid #ffffff;
-  color: #ee2852;
+  color: green;
   background: transparent;
 }
 
@@ -957,8 +957,8 @@ button, button:focus {
 }
 
 .torch-red .site-heading h4 {
-  color: #ee2852;
-  background: linear-gradient(90deg, rgba(238,40,82,1) 0%, rgba(166,23,153,1) 100%);
+  color: green;
+  background: linear-gradient(90deg, rgba(9, 154, 43, 1) 0%, rgba(166,23,153,1) 100%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
@@ -988,7 +988,7 @@ button, button:focus {
 }
 
 .torch-red .site-heading .devider {
-  background: #ee2852;
+  background: green;
 }
 
 .site-heading.light .devider {
@@ -1006,7 +1006,7 @@ button, button:focus {
 }
 
 .torch-red .site-heading .devider:before {
-  background: #ee2852;
+  background: green;
 }
 
 .area-title {
@@ -1720,7 +1720,7 @@ body,
 }
 
 .torch-red .banner-area .carousel-indicators.theme li.active {
-  border: 2px solid #ee2852;
+  border: 2px solid green;
 }
 
 .banner-area .carousel-indicators li::after {
@@ -1746,7 +1746,7 @@ body,
 }
 
 .torch-red .banner-area .carousel-indicators.theme li::after {
-  background: #ee2852;
+  background:  green;
 }
 
 .double-items > .row div {
@@ -1818,8 +1818,8 @@ body,
 }
 
 .torch-red .banner-area.text-default h4 {
-    color: #ee2852;
-    background: linear-gradient(90deg, #ee2852 0%, #d100df 37%);
+    color:  green;
+    background: linear-gradient(90deg, green 0%, #d100df 37%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -2057,7 +2057,7 @@ body,
 }
 
 .torch-red .video-play-button i {
-  color: #ee2852;
+  color: green;
 }
 
 .video-play-button.theme i {
@@ -2368,7 +2368,7 @@ body,
 }
 
 .torch-red .about-items .thumb .successr-ate {
-    background: #ee2852;
+    background: black;
 }
 
 .about-items .thumb .successr-ate i {
@@ -2397,8 +2397,8 @@ body,
 }
 
 .torch-red .about-area .info > h4 {
-    color: #ee2852;
-    background: linear-gradient(90deg, rgba(238,40,82,1) 0%, rgba(166,23,153,1) 100%);
+    color: green;
+    background: linear-gradient(90deg, rgba(9, 154, 43, 1) 0%, rgb(204, 11, 21) 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -2449,7 +2449,7 @@ body,
 }
 
 .torch-red .about-area .info li::after {
-    color: #ee2852;
+    color: green;
 }
 
 .about-area .info li h5 {
@@ -2756,7 +2756,7 @@ body,
 }
 
 .torch-red .features-area .features-content .top span {
-    color: #ee2852;
+    color: green;
 }
 
 .features-area .features-content .top span::after {
@@ -2811,9 +2811,9 @@ body,
 }
 
 .torch-red .features-area .item:hover a::before {
-  border-top-color: #ee2852;
-  border-right-color: #ee2852;
-  border-bottom-color: #ee2852;
+  border-top-color: green;
+  border-right-color: green;
+  border-bottom-color: green;
 }
 
 .features-area .item a::after {
@@ -2829,7 +2829,7 @@ body,
 }
 
 .torch-red .features-area .item:hover  a::after {
-  border-top: 2px solid #ee2852;
+  border-top: 2px solid green;
 }
 
 .features-area .item:hover a {
@@ -2900,7 +2900,7 @@ body,
 }
 
 .torch-red .services-area .services-items .item .info > i {
-    background: #ee2852;
+    background: green;
 }
 
 .services-area .services-items .item .info > i::after {
@@ -2917,7 +2917,7 @@ body,
 }
 
 .torch-red .services-area .services-items .item .info > i::after {
-    background: #ee2852;
+    background: green;
 }
 
 .services-area .services-items .item h4 {
@@ -2969,7 +2969,7 @@ body,
 }
 
 .torch-red .services-area .services-items .single-item .item::after {
-  background: #ee2852;
+  background: green;
 }
 
 .services-area .services-items .single-item .item i,
@@ -2992,7 +2992,7 @@ body,
 }
 
 .torch-red .services-area .services-items .single-item .item:hover i {
-  color: #ee2852;
+  color: green;
 }
 
 .services-area .services-items .single-item .item:hover span,
@@ -3369,7 +3369,7 @@ body,
 
 .torch-red .default-services-area .item .info i {
     background: rgba(238, 40, 82, 0.07);
-    color: #ee2852;
+    color: green;
 }
 
 .default-services-area .item .info p {
@@ -3860,7 +3860,7 @@ body,
 }
 
 .torch-red .choose-us-area .thumb .transform-text h2 {
-    color: #ee2852;
+    color: green;
 }
 
 .choose-us-area .info .award {
@@ -3887,7 +3887,7 @@ body,
 }
 
 .torch-red .choose-us-area .info .award i {
-    color: #ee2852;
+    color: green;
     -webkit-background-clip: inherit;
     -moz-background-clip: inherit;
     background-clip: inherit;
@@ -3912,7 +3912,7 @@ body,
 }
 
 .torch-red .choose-us-area .info h4 {
-    color: #ee2852;
+    color: green;
     background: linear-gradient(90deg, rgba(238,40,82,1) 0%, rgba(166,23,153,1) 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -3957,7 +3957,7 @@ body,
 }
 
 .torch-red .partner-area .item-box.red::after {
-    background: #ee2852;
+    background: green;
 }
 
 .partner-area .item-box::before {
@@ -4080,7 +4080,7 @@ body,
 }
 
 .torch-red .team-area .team-items .thumb {
-    border-bottom: 3px solid #ee2852;
+    border-bottom: 3px solid green;
 }
 
 .team-area .team-items .thumb .share {
@@ -4097,7 +4097,7 @@ body,
 }
 
 .torch-red .team-area .team-items .thumb .share {
-    background: #ee2852;
+    background: green;
 }
 
 .team-area .team-items .item:hover .thumb .share {
@@ -4428,7 +4428,7 @@ body,
 }
 
 .torch-red .testimonials-area .row > .info h4 {
-    color: #ee2852;
+    color: green;
 }
 
 .testimonials-area .row > .info h2 {
@@ -4447,7 +4447,7 @@ body,
 }
 
 .torch-red .testimonials-area .item .provider span {
-    color: #ee2852;
+    color: green;
 }
 
 .testimonials-area .row > .info {
@@ -4500,8 +4500,8 @@ body,
 }
 
 .torch-red .expertise-area .info h4 {
-    color: #ee2852;
-    background: linear-gradient(90deg, rgba(238,40,82,1) 0%, rgba(166,23,153,1) 100%);
+    color: green;
+    background: linear-gradient(90deg, rgba(9, 154, 43, 1) 0%, rgba(9, 154, 43, 1) 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -4564,7 +4564,7 @@ body,
 }
 
 .torch-red .skill-items .progress-box .progress .progress-bar {
-  background: #ee2852;
+  background: green;
 }
 
 .skill-items .progress-box .progress .progress-bar span {
@@ -4594,7 +4594,7 @@ body,
     content: "\f106";
     font-family: "Font Awesome 5 Free";
     font-weight: 600;
-    color: #ee2852;
+    color: green;
     font-size: 20px;
 }
 
@@ -5040,7 +5040,7 @@ body,
 }
 
 .torch-red .gallery-area .pf-item .item .content .button a {
-    background: #ee2852;
+    background: green;
     color: #ffffff;
 }
 
@@ -5148,7 +5148,7 @@ body,
 }
 
 .torch-red .projects-area .single-item a {
-    background: #ee2852;
+    background: green;
 }
 
 .projects-area .single-item a i {
@@ -5634,7 +5634,7 @@ body,
 .torch-red .blog-area .blog-items h4 a:hover,
 .torch-red .blog-area .blog-items h5 a:hover,
 .torch-red .blog-area .blog-items .meta a:hover {
-  color: #ee2852;
+  color: green;
 }
 
 
@@ -5695,7 +5695,7 @@ body,
 }
 
 .torch-red .blog-area .meta ul li:first-child a {
-    color: #ee2852;
+    color: green;
 }
 
 .blog-area .meta ul li a:hover {
@@ -5703,7 +5703,7 @@ body,
 }
 
 .torch-red .blog-area .meta ul li a:hover {
-  color: #ee2852;
+  color: green;
 }
 
 .blog-area .info p:last-child {
@@ -7190,7 +7190,7 @@ footer .f-items .f-item form button {
 }
 
 .torch-red footer .f-items .f-item form button {
-    color: #ee2852;
+    color: green;
 }
 
 footer .f-items .f-item form button::after {
@@ -7220,6 +7220,7 @@ footer a {
 
 footer .f-items .f-item.link li {
     margin-bottom: 12px;
+    padding: 12px;
 }
 
 footer .f-items .f-item.link li:last-child {
@@ -7234,6 +7235,7 @@ footer .f-items .f-item.link li a:hover {
 footer .f-items .f-item.link li a {
     font-weight: 400;
     color: #a0a2a6;
+    font-size: 20px;
 }
 
 footer .f-items .f-item.link li a i {
@@ -7249,6 +7251,8 @@ footer .f-items .f-item .address li {
 footer .f-items .f-item .address li .content,
 footer .f-items .f-item .address li .content a {
   color: #a0a2a6;
+  font-size: 18px;
+  line-height: 35px;
 }
 
 footer .f-items .f-item .address li i {
@@ -7262,7 +7266,7 @@ footer .f-items .f-item .address li i {
 }
 
 .torch-red footer .f-items .f-item .address li i {
-    color: #ee2852;
+    color: green;
 }
 
 footer .f-items .f-item .address li:last-child {
@@ -7273,6 +7277,7 @@ footer .f-items .f-item .address li strong {
     display: block;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    font-size: 18px;
     text-transform: uppercase;
     color: #ffffff;
 }
@@ -7371,7 +7376,7 @@ footer .footer-bottom-box::after {
 }
 
 .torch-red .earna-preloader .animation-preloader .spinner {
-  border-top-color: #ee2852;
+  border-top-color: green;
 }
 
 .earna-preloader .animation-preloader .txt-loading {

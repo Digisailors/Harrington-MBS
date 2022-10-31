@@ -245,7 +245,7 @@
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
-  line-height: 20px;
+  line-height: 40px;
 }
 
 @media (max-width: 767px) {
@@ -392,7 +392,7 @@ nav.navbar .quote-btn a {
 }
 
 .torch-red nav.navbar .quote-btn a {
-  border: 2px solid #ee2852;
+  border: 2px solid green;
 }
 
 nav.navbar .quote-btn {
@@ -617,7 +617,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a .badge {
 }
 
 .torch-red nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a .badge {
-  background: #ee2852;
+  background: green;
 }
 
 nav.bootsnav.navbar-full .navbar-collapse ul.nav > li > a:hover {
@@ -683,7 +683,7 @@ nav.navbar.attr-border .attr-nav {
 }
 
 .torch-red .navbar .attr-nav .call i {
-    color: #ee2852;
+    color: green;
     background: transparent;
     -webkit-background-clip: inherit;
     -moz-background-clip: inherit;
@@ -708,6 +708,7 @@ nav.navbar.attr-border .attr-nav {
     font-size: 18px;
     font-weight: 600;
     margin: 0;
+    line-height: 26px;
 }
 
 .bootsnav .side .widget.social li.facebook a {
@@ -800,7 +801,7 @@ nav.navbar.attr-border .attr-nav::before {
 }
 
 .torch-red .attr-nav > ul > li > a span.badge {
-  background-color: #ee2852;
+  background-color: green;
 }
 
 .navbar .attr-nav.multi-item {
@@ -1078,7 +1079,7 @@ body.on-side .body-overlay {
 }
 
 .torch-red .navbar .side .widget li a:hover {
-  color: #ee2852;
+  color: green;
 }
 
 nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:hover::after {
@@ -1184,7 +1185,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle::after {
 }
 
 .torch-red .side .widget.address ul li i {
-  color: #ee2852;
+  color: green;
 }
 
 .side .widget.address ul li p {
@@ -1243,7 +1244,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle::after {
 }
 
 .torch-red .side .widget.newsletter form span.input-group-addon button {
-  color: #ee2852;
+  color: green;
 }
 
 .navbar .side .widget .profile-thumb img {
@@ -1288,7 +1289,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle::after {
 }
 
 .torch-red .side .widget ul.link li a {
-  color: #ee2852;
+  color: green;
 }
 
 .side .widget ul.link li a:focus,
@@ -1337,7 +1338,7 @@ nav.navbar.bootsnav .share ul > li > a:hover {
 }
 
 .torch-red nav.navbar.bootsnav .share ul > li > a:hover {
-  color: #ee2852;
+  color: green;
 }
 
 nav.navbar.bootsnav.color-yellow .share ul > li > a:hover {
@@ -1528,7 +1529,7 @@ nav.navbar.bootsnav {
   }
 
   .torch-red nav.navbar.bootsnav ul.nav > li > a.active {
-    color: #ee2852;
+    color: green;
   }
 
   nav.navbar.bootsnav.active-bg ul.nav > li > a.active {
@@ -1536,7 +1537,7 @@ nav.navbar.bootsnav {
   }
 
   .torch-red nav.navbar.bootsnav.active-bg ul.nav > li > a.active {
-    background: #ee2852 !important;
+    background: green !important;
   }
 
   nav.navbar.bootsnav.active-border ul.nav > li > a.active {
@@ -1555,7 +1556,7 @@ nav.navbar.bootsnav {
   }
 
   .torch-red nav.navbar.bootsnav.active-border ul.nav > li > a.active::before {
-    border-bottom: 3px solid #ee2852;
+    border-bottom: 3px solid green;
   }
 
   nav.navbar.bootsnav.small-pad ul.nav > li > a {
@@ -1593,7 +1594,7 @@ nav.navbar.bootsnav {
   }
 
   .torch-red nav.navbar.bootsnav ul.nav > li.active > a {
-    color: #ee2852;
+    color: green;
   }
 
   nav.bootsnav.navbar-sidebar ul.nav > li > a i {
@@ -1614,7 +1615,7 @@ nav.navbar.bootsnav {
   }
 
   .torch-red nav.bootsnav.navbar-sidebar ul.nav > li.active > a i {
-    background: #ee2852;
+    background: green;
   }
 
   nav.navbar.bootsnav.barber ul.nav > li.active > a {
@@ -1629,7 +1630,7 @@ nav.navbar.bootsnav {
 
   .torch-red nav.navbar.bootsnav.active-full ul.nav > li > a.active,
   .torch-red nav.navbar.bootsnav.active-full ul.nav > li > a:hover {
-    background: #ee2852 none repeat scroll 0 0 !important;
+    background: green none repeat scroll 0 0 !important;
   }
 
   nav.navbar.bootsnav.active-full.color-yellow ul.nav > li > a.active,
@@ -1646,7 +1647,7 @@ nav.navbar.bootsnav {
   }
 
   .torch-red nav.navbar.bootsnav ul.nav > li > a:hover {
-    color: #ee2852;
+    color: green;
   }
 
   nav.navbar.bootsnav.color-yellow ul.nav > li > a:hover {
@@ -1734,7 +1735,7 @@ nav.navbar.bootsnav {
   }
 
   .torch-red nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
-    color: #ee2852;
+    color: green;
   }
 
   nav.navbar.bootsnav.color-yellow
@@ -1751,7 +1752,7 @@ nav.navbar.bootsnav {
   }
 
   .torch-red nav.navbar.bootsnav ul.navbar-left li.dropdown ul.dropdown-menu li a:hover {
-    color: #ee2852;
+    color: green;
   }
 
   nav.navbar.bootsnav.color-yellow
@@ -2184,7 +2185,7 @@ nav.navbar.bootsnav {
   }
 
   .torch-red nav.bootsnav.navbar-sidebar ul.nav > li > a:hover {
-    color: #ee2852;
+    color: green;
   }
 
   nav.bootsnav.navbar-sidebar.color-yellow ul.nav > li > a:hover {
@@ -2357,7 +2358,7 @@ nav.navbar.bootsnav {
     -moz-background-clip: inherit !important;
     background-clip: inherit !important;
     -webkit-text-fill-color: inherit !important;
-    color: #ee2852;
+    color: green;
 }
 
   nav.bootsnav.navbar-default.small-pad .top-search {
@@ -2548,7 +2549,7 @@ nav.navbar.bootsnav {
   }
 
   .torch-red nav.navbar.bootsnav ul.nav li.dropdown > ul.dropdown-menu li:hover > a {
-    color: #ee2852 !important;
+    color: green !important;
   }
 
   nav.navbar.bootsnav.color-yellow
@@ -3073,7 +3074,7 @@ nav.navbar.bootsnav {
 
 .navbar-brand > img {
   display: initial;
-  height: 50px;
+  height: 70px;
 }
 
 .attr-nav > ul > li {
@@ -3101,7 +3102,7 @@ nav.navbar-transparent .attr-nav > ul > li.contact {
 }
 
 .torch-red .attr-nav > ul > li.contact i {
-  color: #ee2852;
+  color: green;
 }
 
 nav.navbar-transparent .attr-nav > ul > li.contact i {
@@ -3121,7 +3122,7 @@ nav.navbar-transparent .attr-nav > ul > li.contact i {
 }
 
 .torch-red .attr-nav > ul.link > li > a {
-  color: #ee2852;
+  color: green;
 }
 
 .attr-nav > ul.link > li > a i {
@@ -3156,7 +3157,7 @@ nav.navbar-transparent .attr-nav > ul > li.contact i {
 }
 
 .torch-red .attr-nav.menu li:last-child a {
-  background: #ee2852 none repeat scroll 0 0;
+  background: green none repeat scroll 0 0;
 }
 
 .color-yellow .attr-nav.menu li:last-child a {
