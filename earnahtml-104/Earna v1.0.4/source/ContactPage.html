@@ -43,6 +43,12 @@
      <link href="assets/css/responsive.css" rel="stylesheet" />
      <!-- ========== End Stylesheet ========== -->
      <script src="https://kit.fontawesome.com/2a23906c2a.js" crossorigin="anonymous"></script>
+     <script>
+        function showAlert() {
+        alert("Form Is Submitted Successfully. Our Team Will Contact You Shortly");
+    }
+     </script>
+     
   </head>
   <body class="u-body u-xl-mode" data-lang="en">
     <!-- Start Preloader 
@@ -215,9 +221,9 @@
                      <!-- <li>
                           <a class="smooth-menu" href="#team">Team</a>
                       </li>-->
-                      <li>
+                      <!--<li>
                           <a class="smooth-menu" href="index.html#gallery">Gallery</a>
-                      </li>
+                      </li>-->
                      <li class="dropdown active dropdown-right">
                           <a class="smooth-menu" href="ContactPage.html">Contact Us</a>
                       </li>
@@ -255,29 +261,29 @@
               <div class="u-align-center u-container-align-center u-container-style u-layout-cell u-left-cell u-size-60 u-layout-cell-1" src="">
                 <div class="u-container-layout u-container-layout-1">
                   <div class="u-align-left u-expanded-width-xs u-form u-form-1">
-                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='ContactPage.html'}"></iframe>
-                    <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSc3b9XgElFnbU5S_XxVxU-xZTdp0i5q4HJnYI8CY7iASbKkKw/formResponse" method="POST" style="padding: 0px;" source="email" name="form" target="hidden_iframe">
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://digisailor.com/';}"></iframe>
+                    <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSc3b9XgElFnbU5S_XxVxU-xZTdp0i5q4HJnYI8CY7iASbKkKw/formResponse" method="POST" style="padding: 0px;" source="email" name="form" target="hidden_iframe" onsubmit="return onload()";>
                       <h2 class="u-align-center u-form-group u-form-text u-text u-text-1"> Drop a line </h2>
                       <div class="u-form-email u-form-group u-form-partition-factor-2">
                         <label for="email-319a" class="u-label u-label-1">Email</label>
-                        <input type="email" placeholder="Enter a valid email address" id="email-319a" name="entry.1045781291" class="u-grey-5 u-input u-input-rectangle u-radius-5 u-input-1" required="">
+                        <input type="email" placeholder="Enter a valid email address" id="email" name="entry.1045781291" class="u-grey-5 u-input u-input-rectangle u-radius-5 u-input-1" required="">
                       </div>
                       <div class="u-form-group u-form-name u-form-partition-factor-2">
                         <label for="name-319a" class="u-label u-label-2">Name</label>
-                        <input type="text" placeholder="Enter your Name" id="name-319a" name="entry.2005620554" class="u-grey-5 u-input u-input-rectangle u-radius-5 u-input-2" required="">
+                        <input type="text" placeholder="Enter your Name" id="name" name="entry.2005620554" class="u-grey-5 u-input u-input-rectangle u-radius-5 u-input-2" required="">
                       </div>
                       <div class="u-form-address u-form-group u-form-group-4">
                         <label for="address-452f" class="u-label u-label-3">Phone</label>
-                        <input type="text" placeholder="Enter your Mobile Number" id="address-452f" name="entry.1166974658" class="u-grey-5 u-input u-input-rectangle u-radius-5 u-input-3" required="">
+                        <input type="text" placeholder="Enter your Mobile Number" id="phone" name="entry.1166974658" class="u-grey-5 u-input u-input-rectangle u-radius-5 u-input-3" required="">
                       </div>
                       <div class="u-form-group u-form-message">
                         <label for="message-319a" class="u-label u-label-4">Message</label>
                         <textarea placeholder="Enter your message" rows="4" cols="50" id="message-319a" name="entry.839337160" class="u-grey-5 u-input u-input-rectangle u-radius-5 u-input-4" required=""></textarea>
                       </div>
                       <div class="u-align-left u-form-group u-form-submit">
-                        <a href="#" class="u-active-palette-5-dark-2 u-border-none u-btn u-btn-round u-btn-submit u-button-style u-hover-palette-5-dark-2 u-palette-5-dark-3 u-radius-5 u-btn-1">Submit</a>
-                        <input type="submit" value="submit" class="u-form-control-hidden">
-                      </div>
+                        <a href="index.html" class="u-active-palette-5-dark-2 u-border-none u-btn u-btn-round u-btn-submit u-button-style u-hover-palette-5-dark-2 u-palette-5-dark-3 u-radius-5 u-btn-1">Submit</a>
+                        <input type="submit" value="submit" class="u-form-control-hidden" onclick="showAlert()">
+                      </div> 
                       <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
                       <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
                       <input type="hidden" value="" name="recaptchaResponse">
@@ -292,6 +298,74 @@
         </div>
       </div>
     </section>
+    <script type="text/javascript">var submitted=false;</script>
+    
+<script type="text/javascript">
+    function validateName() {
+            var name = document.getElementById('name').value;
+            if(name.length == 0) {
+              alert("Name can't be blank") ;
+              return false;
+
+            }
+            if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+              alert("Please enter your correct name") ;//Validation Message
+              return false;
+            }
+            return true;
+          }
+
+          function validatePhone() {
+            var phone = document.getElementById('phone').value;
+            if(phone.length == 0) {
+              alert("Phone number can't be blank") ;//Validation Message
+              return false;
+            }
+
+            if(!phone.match(/^[0]?[789]\d{9}$/)) {
+             alert("Please enter a correct phone number") ;//Validation Message
+             return false;
+           }
+
+           return true;
+
+         }
+
+         function validateEmail () {
+
+          var email = document.getElementById('email').value;
+          if(email.length == 0) {
+            alert("Email can't be blank") ;//Validation Message
+            return false;
+
+          }
+
+          if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+            alert("Please enter a correct email address") ;//Validation Message
+            return false;
+
+          }
+
+          return true;
+
+        }
+
+
+        function validateForm() {
+          if (!validateName() || !validatePhone() || !validateEmail()) {
+
+            alert("Form not submitted");//Validation Message
+            return false;
+          }
+          else {
+            submitted=true;
+            return true;
+          }
+        }
+        function onload() {
+            window.location.reload;
+        }
+        </script>
      <!-- Start Footer 
     ============================================= -->
     <footer class="bg-dark text-light">
@@ -329,9 +403,9 @@
                               <!--<li>
                                   <a href="#"><i class="fas fa-angle-right"></i> Blog Page</a>
                               </li>-->
-                              <li>
+                              <!--<li>
                                   <a href="index.html#gallery"><i class="fas fa-angle-right"></i> Gallery</a>
-                              </li>
+                              </li>-->
                               <li>
                                   <a href="ContactPage.html"><i class="fas fa-angle-right"></i> Contact Us</a>
                               </li>
@@ -463,7 +537,7 @@
               <div class="footer-bottom-box">
                   <div class="row">
                       <div class="col-lg-6">
-                          <p>&copy;2022 Harrington MBS. All Rights Reserved | Powered by <a href="https://digisailor.com">DigiSailor </a>    
+                          <p>&copy;2022 Harrington MBS. All Rights Reserved | Powered by <a href="https://digisailor.com">Digisailor </a>    
                       
                       <!--<div class="col-lg-6 text-right link">
                           <ul>

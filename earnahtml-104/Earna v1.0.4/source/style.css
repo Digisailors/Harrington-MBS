@@ -577,13 +577,14 @@ a:hover, a:active {
   text-decoration: none;
 }
 
-ol a {
+ul a {
   font-size: 17px;
   color:#54626F;
   font-weight: 900;
+  line-height: 35px;
 }
 
-ol a:hover {
+ul a:hover {
   color: green;
 }
 .btn.btn-gradient {
